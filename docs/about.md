@@ -1,8 +1,8 @@
 ---
-title: Home
+title: About
 layout: default
 ---
 
 # {{ page.title }}
 
-Welcome to my blog!
+Hi, my name is Martin!
