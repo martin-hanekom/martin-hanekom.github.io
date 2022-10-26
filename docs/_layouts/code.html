@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="card shadow-sm">
+  <div class="card-body">
+    <a href="/code" class="text-decoration-none text-reset text-muted">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <div class="mt-2">
+      <h1>{{ page.title }}</h1>
+      <p class="text-muted">By {{ page.author }} on {{ page.date | date_to_long_string }} on <a href="{{ page.githublink }}" target="_blank">GitHub</a></p>
+      {{ content }}
+    </div>
+  </div>
+</div>
